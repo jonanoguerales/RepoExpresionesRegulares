@@ -1,0 +1,38 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 800px;
+  padding: 4rem;
+}
+#iban {
+  width: 600px;
+  height: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#inputs-buscar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#boton-buscar {
+  position: relative;
+  z-index: 2;
+  border: none;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icono-buscar {
+  width: 35px;
+  height: 35px;
+  pointer-events: none;
+}
